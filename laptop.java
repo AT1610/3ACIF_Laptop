@@ -33,4 +33,10 @@ public class laptop
         setNeu(neuNeu);
     }
     
+    public laptop ()
+    {
+        setHersteller("Lenovo");
+        setKosten(1000);
+        setNeu(true);
+    }
 }
