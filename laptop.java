@@ -26,4 +26,11 @@ public class laptop
         setNeu(neuNeu);
     }
     
+    public laptop (String neuHersteller, boolean neuNeu)
+    {
+        setHersteller(neuHersteller);
+        setKosten(1000);
+        setNeu(neuNeu);
+    }
+    
 }
